@@ -776,6 +776,47 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Cta
+--------------------------------------------------------------*/
+.cta {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/portfolio/pic6.jpeg") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.cta h3 {
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.cta p {
+  color: #FFF;
+}
+
+.cta .cta-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #1093ea;
+  background: #1093ea;
+  color: #FFF;
+}
+
+.cta .cta-btn:hover {
+  background: #1093ea;
+  border-color: #1093ea;
+  color: #010101;
+}
+
+
+/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio #portfolio-flters {
