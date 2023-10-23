@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #fd541e;
+  background: #1093ea;
   color: #fff;
 }
 
@@ -217,7 +217,7 @@ h6 {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #fd490f;
+  background: #1093ea;
 }
 
 .navbar .dropdown ul {
@@ -1724,7 +1724,7 @@ section {
 }
 
 .blog .entry .entry-footer a {
-  color: #3a2f2b;
+  color: #FFF;
   transition: 0.3s;
 }
 
@@ -1884,7 +1884,7 @@ section {
 
 .blog .blog-comments .reply-form input:focus {
   box-shadow: none;
-  border-color: #fe825a;
+  border-color: #1093ea;
 }
 
 .blog .blog-comments .reply-form textarea {
@@ -1895,7 +1895,7 @@ section {
 
 .blog .blog-comments .reply-form textarea:focus {
   box-shadow: none;
-  border-color: #fe825a;
+  border-color: #1093ea;
 }
 
 .blog .blog-comments .reply-form .form-group {
@@ -2153,7 +2153,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #fd6f41;
+  color: #1093ea;
   font-size: 18px;
   line-height: 1;
 }
@@ -2177,7 +2177,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #fd6f41;
+  color: #1093ea;
 }
 
 #footer .footer-newsletter {
@@ -2249,7 +2249,110 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #fd5c28;
+  background: #1093ea;
   color: #fff;
   text-decoration: none;
 }
+
+/*--------------------------------------------------------------
+# Hero Section --------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/portfolio/pic6.jpeg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero .container {
+  position: relative;
+  padding-top: 74px;
+  text-align: center;
+}
+
+#hero h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero h1 span {
+  color: #1093ea;
+}
+
+#hero h2 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+#hero .icon-box {
+  padding: 30px 20px;
+  transition: ease-in-out 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 100%;
+  text-align: center;
+}
+
+#hero .icon-box i {
+  font-size: 32px;
+  line-height: 1;
+  color: #1093ea;
+}
+
+#hero .icon-box h3 {
+  font-weight: 700;
+  margin: 10px 0 0 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#hero .icon-box h3 a {
+  color: #fff;
+  transition: ease-in-out 0.3s;
+}
+
+#hero .icon-box h3 a:hover {
+  color: #1093ea;
+}
+
+#hero .icon-box:hover {
+  border-color: #1093ea;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    height: auto;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}x
